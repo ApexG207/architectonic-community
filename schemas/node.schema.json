@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Architectonic Community Node",
+  "type": "object",
+  "required": [
+    "node_id",
+    "node_type",
+    "name",
+    "lifecycle_state"
+  ],
+  "properties": {
+    "node_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "node_type": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "echelon": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "owner_role": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_state": {
+      "enum": [
+        "observed",
+        "derived",
+        "assumed",
+        "synthetic",
+        "unknown"
+      ]
+    },
+    "lifecycle_state": {
+      "enum": [
+        "draft",
+        "review",
+        "approved",
+        "active",
+        "superseded",
+        "retired"
+      ]
+    }
+  }
+}
