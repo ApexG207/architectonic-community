@@ -1,0 +1,44 @@
+{
+  "case_id": "DEMO-NORTHSTAR-001",
+  "evidence_class": "synthetic",
+  "organization": "Northstar Manufacturing (synthetic)",
+  "vision": "Create a decision-ready operating architecture that reduces reconciliation burden while preserving local execution flexibility.",
+  "problem_statement": "Leaders receive conflicting status information from multiple business units, while staff duplicate reporting and maintain local workarounds.",
+  "symptoms": [
+    "duplicate status requests",
+    "conflicting metric definitions",
+    "late cross-functional decisions",
+    "manual reconciliation",
+    "local spreadsheet workarounds"
+  ],
+  "candidate_hypotheses": [
+    "semantic inconsistency across business units",
+    "unclear ownership of enterprise measures",
+    "reporting cadence mismatch",
+    "insufficient integration between authoritative systems"
+  ],
+  "actors": [
+    {
+      "actor": "Executive team",
+      "perspective": "enterprise",
+      "primary_interest": "decision reliability"
+    },
+    {
+      "actor": "Business unit leaders",
+      "perspective": "operational",
+      "primary_interest": "local execution flexibility"
+    },
+    {
+      "actor": "Analysts",
+      "perspective": "individual",
+      "primary_interest": "reduced reconciliation workload"
+    }
+  ],
+  "example_coas": [
+    "standardize definitions and ownership",
+    "create a federated governed reporting layer",
+    "replace local reporting systems"
+  ],
+  "decision_state": "demonstration only",
+  "note": "No output in this file is an observed client result or recommendation."
+}
