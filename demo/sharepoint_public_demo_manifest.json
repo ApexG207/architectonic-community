@@ -1,0 +1,30 @@
+{
+  "version": "0.1",
+  "status": "public-demo-design",
+  "environment": "sharepoint-community-demo",
+  "synthetic_only": true,
+  "site_name": "Architectonic Community Demo",
+  "libraries": [
+    "01_Getting_Started",
+    "02_Synthetic_Evidence",
+    "03_Demo_Architecture",
+    "04_Demo_Decision_Packages",
+    "05_Demo_Measures",
+    "06_Demo_Lessons"
+  ],
+  "lists": [
+    "Demo Pilot Registry",
+    "Demo Stakeholder Register",
+    "Demo Decision Register",
+    "Demo Evidence Register",
+    "Demo Architecture Nodes",
+    "Demo Architecture Edges",
+    "Demo Measure Register",
+    "Demo Forecast Register",
+    "Demo Outcome Register",
+    "Demo QAQC Findings"
+  ],
+  "authoritative_enterprise_write": false,
+  "proprietary_assets_included": false,
+  "live_site_deployed": false
+}
