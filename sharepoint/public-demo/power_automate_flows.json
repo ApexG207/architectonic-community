@@ -1,0 +1,66 @@
+{
+  "version": "0.1",
+  "flows": [
+    {
+      "id": "DEMO-PA-01",
+      "name": "Demo Intake Guard",
+      "trigger": "Demo Pilot Registry item created",
+      "actions": [
+        "Require Synthetic_Flag=true",
+        "Reject missing owner/version",
+        "Set Lifecycle_State=Draft"
+      ],
+      "approval": false
+    },
+    {
+      "id": "DEMO-PA-02",
+      "name": "Public Evidence Guard",
+      "trigger": "Demo Evidence Register item created or updated",
+      "actions": [
+        "Require Evidence_Class in approved public choices",
+        "Check Synthetic_Flag",
+        "Flag prohibited data patterns for manual review"
+      ],
+      "approval": false
+    },
+    {
+      "id": "DEMO-PA-03",
+      "name": "Demo Publication Review",
+      "trigger": "Demo artifact marked Ready",
+      "actions": [
+        "Route to Demo Reviewer",
+        "Record approve/return",
+        "Publish only approved synthetic artifact"
+      ],
+      "approval": true
+    },
+    {
+      "id": "DEMO-PA-04",
+      "name": "Demo Forecast Freeze",
+      "trigger": "Demo Forecast marked Published",
+      "actions": [
+        "Stamp publish timestamp",
+        "Preserve published version reference"
+      ],
+      "approval": true
+    },
+    {
+      "id": "DEMO-PA-05",
+      "name": "Public Boundary Check",
+      "trigger": "Before demo export/publication",
+      "actions": [
+        "Verify Synthetic_Flag",
+        "Verify no restricted category",
+        "Verify no enterprise-only asset reference",
+        "Block on failed check"
+      ],
+      "approval": true
+    }
+  ],
+  "invariants": [
+    "No demo flow writes to enterprise authoritative records",
+    "Synthetic_Flag must remain true for demo pilot records",
+    "No secret or private configuration in flow definitions",
+    "Demo approval is not enterprise release authority"
+  ]
+}
