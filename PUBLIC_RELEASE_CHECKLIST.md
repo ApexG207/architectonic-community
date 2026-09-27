@@ -11,7 +11,7 @@
 - [x] No full production prompt library
 - [x] No restricted calibration dataset
 - [x] Development/claim boundary stated
-- [ ] Formal license reviewed by counsel
-- [ ] Dedicated public repository created
+- [x] Formal license reviewed by counsel
+- [x] Dedicated public repository created
 - [ ] GitLab mirror configured
 - [ ] LinkedIn launch post published
