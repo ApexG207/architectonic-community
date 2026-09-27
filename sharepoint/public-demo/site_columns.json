@@ -1,0 +1,95 @@
+{
+  "version": "0.1",
+  "namespace": "ArchitectonicPublicDemo",
+  "columns": [
+    {
+      "name": "Demo_Record_ID",
+      "type": "Text",
+      "required": true,
+      "indexed": true
+    },
+    {
+      "name": "Demo_Pilot_ID",
+      "type": "Text",
+      "required": false,
+      "indexed": true
+    },
+    {
+      "name": "Demo_Architecture_ID",
+      "type": "Text",
+      "required": false,
+      "indexed": true
+    },
+    {
+      "name": "Demo_Decision_ID",
+      "type": "Text",
+      "required": false,
+      "indexed": true
+    },
+    {
+      "name": "Demo_Measure_ID",
+      "type": "Text",
+      "required": false,
+      "indexed": true
+    },
+    {
+      "name": "Synthetic_Flag",
+      "type": "YesNo",
+      "required": true,
+      "default": true
+    },
+    {
+      "name": "Evidence_Class",
+      "type": "Choice",
+      "choices": [
+        "Synthetic",
+        "Public Reference",
+        "Illustrative"
+      ],
+      "required": true
+    },
+    {
+      "name": "Lifecycle_State",
+      "type": "Choice",
+      "choices": [
+        "Draft",
+        "Published",
+        "Superseded",
+        "Archived"
+      ],
+      "required": true
+    },
+    {
+      "name": "Public_Owner",
+      "type": "User",
+      "required": true
+    },
+    {
+      "name": "Public_Reviewer",
+      "type": "User",
+      "required": false
+    },
+    {
+      "name": "Version",
+      "type": "Text",
+      "required": true
+    },
+    {
+      "name": "Source_URL",
+      "type": "Hyperlink",
+      "required": false
+    },
+    {
+      "name": "Decision_Served",
+      "type": "Note",
+      "required": false
+    },
+    {
+      "name": "Demo_Confidence",
+      "type": "Number",
+      "min": 0,
+      "max": 1,
+      "required": false
+    }
+  ]
+}
