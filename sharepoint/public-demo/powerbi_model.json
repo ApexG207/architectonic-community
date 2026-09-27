@@ -1,0 +1,34 @@
+{
+  "version": "0.1",
+  "model_name": "Architectonic Public Demo Semantic Model",
+  "fact_tables": [
+    "DemoFactMeasures",
+    "DemoFactForecasts",
+    "DemoFactOutcomes",
+    "DemoFactQAQC"
+  ],
+  "dimensions": [
+    "DemoDimPilot",
+    "DemoDimArchitecture",
+    "DemoDimDecision",
+    "DemoDimMeasure",
+    "DemoDimLifecycle"
+  ],
+  "measures": [
+    "Synthetic Decision Latency",
+    "Demo Evidence Completeness",
+    "Demo MOP Attainment",
+    "Demo MOE Attainment",
+    "Synthetic Forecast vs Outcome",
+    "Open Demo QAQC Findings"
+  ],
+  "pages": [
+    "Demo Executive Overview",
+    "Synthetic Architecture Trace",
+    "Evidence-to-Decision Demo",
+    "Demo Measures",
+    "Synthetic Forecast vs Outcome",
+    "Community vs Enterprise Boundary"
+  ],
+  "truth_boundary": "All values are synthetic or public-reference demonstrations and are not field evidence."
+}
