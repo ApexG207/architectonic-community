@@ -1,0 +1,141 @@
+{
+  "version": "0.1",
+  "lists": [
+    {
+      "name": "Demo Pilot Registry",
+      "key": "Demo_Pilot_ID",
+      "fields": [
+        "Title",
+        "Demo_Pilot_ID",
+        "Synthetic_Flag",
+        "Public_Owner",
+        "Lifecycle_State",
+        "Version"
+      ]
+    },
+    {
+      "name": "Demo Stakeholder Register",
+      "key": "Demo_Record_ID",
+      "fields": [
+        "Title",
+        "Demo_Record_ID",
+        "Demo_Pilot_ID",
+        "Synthetic_Flag",
+        "Public_Owner",
+        "Lifecycle_State"
+      ]
+    },
+    {
+      "name": "Demo Decision Register",
+      "key": "Demo_Decision_ID",
+      "fields": [
+        "Title",
+        "Demo_Record_ID",
+        "Demo_Pilot_ID",
+        "Demo_Architecture_ID",
+        "Demo_Decision_ID",
+        "Decision_Served",
+        "Synthetic_Flag",
+        "Public_Owner",
+        "Public_Reviewer",
+        "Lifecycle_State"
+      ]
+    },
+    {
+      "name": "Demo Evidence Register",
+      "key": "Demo_Record_ID",
+      "fields": [
+        "Title",
+        "Demo_Record_ID",
+        "Demo_Pilot_ID",
+        "Evidence_Class",
+        "Source_URL",
+        "Demo_Confidence",
+        "Synthetic_Flag",
+        "Public_Owner",
+        "Lifecycle_State"
+      ]
+    },
+    {
+      "name": "Demo Architecture Nodes",
+      "key": "Demo_Record_ID",
+      "fields": [
+        "Title",
+        "Demo_Record_ID",
+        "Demo_Pilot_ID",
+        "Demo_Architecture_ID",
+        "Synthetic_Flag",
+        "Public_Owner",
+        "Lifecycle_State"
+      ]
+    },
+    {
+      "name": "Demo Architecture Edges",
+      "key": "Demo_Record_ID",
+      "fields": [
+        "Title",
+        "Demo_Record_ID",
+        "Demo_Pilot_ID",
+        "Demo_Architecture_ID",
+        "Synthetic_Flag",
+        "Public_Owner",
+        "Lifecycle_State"
+      ]
+    },
+    {
+      "name": "Demo Measure Register",
+      "key": "Demo_Measure_ID",
+      "fields": [
+        "Title",
+        "Demo_Record_ID",
+        "Demo_Pilot_ID",
+        "Demo_Measure_ID",
+        "Synthetic_Flag",
+        "Public_Owner",
+        "Lifecycle_State"
+      ]
+    },
+    {
+      "name": "Demo Forecast Register",
+      "key": "Demo_Record_ID",
+      "fields": [
+        "Title",
+        "Demo_Record_ID",
+        "Demo_Pilot_ID",
+        "Demo_Decision_ID",
+        "Demo_Confidence",
+        "Synthetic_Flag",
+        "Public_Owner",
+        "Lifecycle_State"
+      ]
+    },
+    {
+      "name": "Demo Outcome Register",
+      "key": "Demo_Record_ID",
+      "fields": [
+        "Title",
+        "Demo_Record_ID",
+        "Demo_Pilot_ID",
+        "Demo_Decision_ID",
+        "Demo_Measure_ID",
+        "Synthetic_Flag",
+        "Public_Owner",
+        "Lifecycle_State"
+      ]
+    },
+    {
+      "name": "Demo QAQC Findings",
+      "key": "Demo_Record_ID",
+      "fields": [
+        "Title",
+        "Demo_Record_ID",
+        "Demo_Pilot_ID",
+        "Demo_Architecture_ID",
+        "Synthetic_Flag",
+        "Public_Owner",
+        "Public_Reviewer",
+        "Lifecycle_State"
+      ]
+    }
+  ]
+}
