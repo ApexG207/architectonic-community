@@ -1,0 +1,6 @@
+Role,SharePoint Permission Level,Primary Scope,Can Approve,Can Release,Notes
+Public Viewer,Read,Published demo content,No,No,No authoritative enterprise access
+Demo Contributor,Contribute,Synthetic demo records,No,No,Cannot create enterprise evidence
+Demo Curator,Edit,Demo lists and libraries,No,No,Responsible for synthetic/public-only boundary
+Demo Reviewer,Edit,Public review queue,Yes,No,May approve demo publication only
+Site Administrator,Full Control,Demo site configuration,No,No,Administrative rights do not create enterprise authority
