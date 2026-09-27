@@ -1,0 +1,57 @@
+{
+  "version": "0.1",
+  "content_types": [
+    {
+      "name": "Architectonic Demo Record",
+      "parent": "Item",
+      "fields": [
+        "Demo_Record_ID",
+        "Synthetic_Flag",
+        "Evidence_Class",
+        "Lifecycle_State",
+        "Public_Owner",
+        "Version"
+      ]
+    },
+    {
+      "name": "Architectonic Demo Evidence",
+      "parent": "Item",
+      "fields": [
+        "Demo_Record_ID",
+        "Demo_Pilot_ID",
+        "Synthetic_Flag",
+        "Evidence_Class",
+        "Source_URL",
+        "Demo_Confidence",
+        "Public_Owner",
+        "Lifecycle_State"
+      ]
+    },
+    {
+      "name": "Architectonic Demo Decision",
+      "parent": "Item",
+      "fields": [
+        "Demo_Record_ID",
+        "Demo_Pilot_ID",
+        "Demo_Architecture_ID",
+        "Demo_Decision_ID",
+        "Decision_Served",
+        "Public_Owner",
+        "Public_Reviewer",
+        "Lifecycle_State"
+      ]
+    },
+    {
+      "name": "Architectonic Demo Measure",
+      "parent": "Item",
+      "fields": [
+        "Demo_Record_ID",
+        "Demo_Pilot_ID",
+        "Demo_Measure_ID",
+        "Synthetic_Flag",
+        "Public_Owner",
+        "Lifecycle_State"
+      ]
+    }
+  ]
+}
