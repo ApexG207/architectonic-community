@@ -69,3 +69,16 @@ For design-partner pilots, enterprise deployments, commercial licensing, or part
 ## Legal Contact
 
 The Architectonic public-release licensing package has been formally approved by Apex Governance Group's in-house counsel. Questions or concerns regarding licensing, copyright, trademarks, enforcement, or other legal matters should be directed to **Akridge & Balch, P.C., Auburn, Alabama**, through the firm's official channels.
+
+
+## Public Operations
+
+- Release notes: `RELEASES.md`
+- Changelog: `CHANGELOG.md`
+- Roadmap: `ROADMAP.md`
+- Contributing: `CONTRIBUTING.md`
+- Design-partner intake: `DESIGN_PARTNER_INTAKE.md`
+- Empirical pilot template: `EMPIRICAL_PILOT_001_TEMPLATE.md`
+- Measurement framework: `MEASUREMENT_FRAMEWORK.md`
+
+Use GitHub issues for public, non-sensitive bug reports, feature requests, design-partner interest, and commercial licensing inquiries. Do not place sensitive, controlled, client, or nonpublic government information in public issues.
