@@ -73,6 +73,7 @@ The Architectonic public-release licensing package has been formally approved by
 
 ## Public Operations
 
+- Public release status: `PUBLIC_RELEASE_STATUS.md`
 - Release notes: `RELEASES.md`
 - Changelog: `CHANGELOG.md`
 - Roadmap: `ROADMAP.md`

@@ -30,8 +30,13 @@ This candidate is a development-stage public evaluation release. It does not est
 - Public security-routing and contribution controls are present.
 - Design-partner and empirical-pilot controls are present.
 
-## Remaining release action
+## Remaining external actions
+
 Create the GitHub tag/release `v0.1-community-preview` from the accepted public baseline. The current ChatGPT GitHub connector does not expose a release/tag creation action, so this action remains external.
+
+The GitLab mirror, LinkedIn launch post, first design-partner acceptance, and
+Empirical Pilot 001 authorization are also external actions. Their status and
+entry conditions are tracked in `PUBLIC_RELEASE_STATUS.md`.
 
 ## Release authority
 Actual publication, release acceptance, and any production/commercial commitments remain with the authorized Apex Governance Group decision process.
