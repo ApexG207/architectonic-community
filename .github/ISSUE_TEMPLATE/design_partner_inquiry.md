@@ -12,6 +12,8 @@ assignees: ""
 
 ## Problem / decision to improve
 
+## Beneficiary
+
 ## Affected functions
 
 ## Current baseline
@@ -20,7 +22,15 @@ assignees: ""
 
 ## Desired effect
 
+## Success thresholds
+
+## Proposed pilot / intervention
+
+## Pilot and data-use authority
+
 ## Time horizon
+
+Include the observation period.
 
 ## Deployment environment
 
@@ -28,7 +38,13 @@ assignees: ""
 
 ## Authority / decision owner
 
+## Independent outcome observation / adjudication
+
 ## Budget range
 Optional.
 
-Do not post sensitive, confidential, controlled, client, or nonpublic government information in a public issue. Use official Apex Governance Group channels for protected details.
+## Procurement path / constraints
+
+Optional.
+
+Do not post sensitive, confidential, controlled, client, personal, or nonpublic government information in a public issue. Use official Apex Governance Group channels for protected details. A design-partner inquiry does not authorize deployment, field intervention, certification, commercial use, or entry into calibration.
